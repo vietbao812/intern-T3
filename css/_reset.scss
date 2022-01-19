@@ -1,0 +1,30 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+section {
+  padding: 60px 0 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}

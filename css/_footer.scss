@@ -1,0 +1,117 @@
+.footer {
+  background: #2c2b3b;
+  padding: 50px 0;
+  .container {
+    .footer-top {
+      text-align: center;
+      h3 {
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+      p {
+        color: rgba(#fff, 0.8);
+        text-transform: uppercase;
+      }
+    }
+    .footer-content {
+      .footer-logo {
+        width: 120px;
+        margin: 30px 0;
+      }
+      .footer-information {
+        color: $white;
+        display: flex;
+        justify-content: space-between;
+        .left {
+          width: 40%;
+          h4 {
+            font-weight: 500;
+          }
+          li {
+            margin: 15px 0;
+            color: rgba(#fff, 0.8);
+            i {
+              margin-right: 10px;
+            }
+          }
+          form {
+            width: 350px;
+            display: flex;
+            margin-top: 30px;
+            input {
+              flex-grow: 1;
+              padding: 6px 12px;
+              background: #22222d;
+              border: none;
+              color: rgba(#fff, 0.8);
+            }
+            button {
+              padding: 6px 12px;
+              background: $primaryColor;
+              border: none;
+              cursor: pointer;
+              i {
+                font-size: 28px;
+                color: $white;
+              }
+            }
+          }
+        }
+        .right {
+          width: calc(60% - 50px);
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          > div {
+            margin-bottom: 20px;
+            input {
+              background: transparent;
+              border: none;
+              border-bottom: 1px solid rgba(#fff, 0.8);
+              display: block;
+              width: 100%;
+              padding: 8px 0px;
+              color: rgba(#fff, 0.8);
+            }
+          }
+          .name, .phone {
+            width: 48%;
+          }
+          .email, .content {
+            width: 100%;
+          }
+          .content {
+            height: 100px;
+            input {
+              height: 100%;
+              border: 1px solid rgba(#fff, 0.8);
+
+            }
+          }
+          button {
+            margin-top: 20px;
+            display: block;
+            width: 100%;
+            background: $primaryColor;
+            color: $white;
+            border: 1px solid $primaryColor;
+            padding: 10px;
+            cursor: pointer;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  background: #22222d;
+  padding: 20px 0;
+  color: rgba(#fff, 0.8);
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
